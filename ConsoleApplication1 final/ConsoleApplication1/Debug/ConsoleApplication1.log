@@ -1,0 +1,26 @@
+﻿Build started 05/05/2013 18:20:50.
+     1>Project "D:\1university\KTH\q4\constraintprogramingID2204\assignments\assignment 3\ConsoleApplication1 final\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\VS2012 ultimate\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Gecode\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt a3.cpp
+         a3.cpp
+     1>c:\program files (x86)\gecode\include\gecode\kernel\archive.hpp(278): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files (x86)\gecode\include\gecode\search.hh(375): warning C4251: 'Gecode::Search::MetaStop::m_stat' : class 'Gecode::Search::Statistics' needs to have dll-interface to be used by clients of class 'Gecode::Search::MetaStop'
+                 c:\program files (x86)\gecode\include\gecode\search.hh(133) : see declaration of 'Gecode::Search::Statistics'
+     1>c:\program files (x86)\gecode\include\gecode\gist.hh(169): warning C4251: 'Gecode::Gist::TextOutput::n' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Gecode::Gist::TextOutput'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>c:\program files (x86)\gecode\include\gecode\driver.hh(547): warning C4251: 'Gecode::Options::inspect' : class 'Gecode::Options::_I' needs to have dll-interface to be used by clients of class 'Gecode::Options'
+                 c:\program files (x86)\gecode\include\gecode\driver.hh(509) : see declaration of 'Gecode::Options::_I'
+     1>d:\1university\kth\q4\constraintprogramingid2204\assignments\assignment 3\consoleapplication1 final\consoleapplication1\a3.cpp(36): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Program Files (x86)\VS2012 ultimate\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1university\KTH\q4\constraintprogramingID2204\assignments\assignment 3\ConsoleApplication1 final\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Gecode\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1university\KTH\q4\constraintprogramingID2204\assignments\assignment 3\ConsoleApplication1 final\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1university\KTH\q4\constraintprogramingID2204\assignments\assignment 3\ConsoleApplication1 final\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\a3.obj
+         ConsoleApplication1.vcxproj -> D:\1university\KTH\q4\constraintprogramingID2204\assignments\assignment 3\ConsoleApplication1 final\Debug\ConsoleApplication1.exe
+     1>Done Building Project "D:\1university\KTH\q4\constraintprogramingID2204\assignments\assignment 3\ConsoleApplication1 final\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.35
